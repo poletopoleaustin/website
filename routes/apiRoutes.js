@@ -32,9 +32,9 @@ module.exports = function (app) {
 
             // send mail with defined transport object
             let info = await transporter.sendMail({
-                from: "Trent Davis <trentdavisinc@gmail.com>", // sender address
+                from: "Web Form Submission <noreply@ptopaustin.com>", // sender address
                 to: "trentdavisinc@gmail.com", // list of receivers
-                subject: "New message from nodemailer", // Subject line
+                subject: "New message from ptopaustin.com", // Subject line
                 html: output // html body
             });
 
